@@ -1,14 +1,14 @@
 body {
   background-color: #faf6f6;
-  height: 90%;
+  height: 95%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   scroll-behavior: smooth;
 }
 .card-box {
-  max-width: 680px;
-  height: 510px;
+  max-width: 800px;
+  height: 550px;
   border-style: solid rgb(74, 73, 73);
   border-radius: 20px;
   background: linear-gradient(
@@ -98,3 +98,9 @@ a {
   font-size: 40px;
   margin-top: 15px;
 }
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
