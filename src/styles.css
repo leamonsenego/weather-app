@@ -40,6 +40,10 @@ h6 {
   color: grey;
 }
 
+#weather-description {
+  font-style: italic;
+}
+
 form {
   padding: 20px;
 }
@@ -103,4 +107,3 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-
