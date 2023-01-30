@@ -53,7 +53,7 @@ function showWeatherConditions(response) {
   );
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
-    response.data.main.speed
+    response.data.main.wind
   );
 
   document.querySelector("#weather-description").innerHTML =
