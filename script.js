@@ -53,11 +53,13 @@ function showWeatherConditions(response) {
   );
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
-    response.data.main.wind
+    response.data.wind.speed
   );
-
+  document.querySelector("#clouds").innerHTML = Math.round(
+    response.data.clouds.all
+  );
   document.querySelector("#weather-description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
 }
 
 /////////////////////////////////////////////// Celsius and Fahrenheit
@@ -97,4 +99,3 @@ function changeUnit(tempUnitParam) {
       alert("Unknown");
   }
 }
-
